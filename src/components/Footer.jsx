@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-slate-950 text-slate-400 border-t border-white/5 pt-16 pb-8 px-6 md:px-16">
+    <footer className="w-full bg-slate-950 text-slate-400 border-t border-white/5 pt-16 pb-8 px-6 md:px-16 mt-8">
       <div className="max-w-7xl mx-auto">
         
         {/* 4 COLUMNS GRID ON DESKTOP, STACKED ON MOBILE */}
