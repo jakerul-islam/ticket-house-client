@@ -62,13 +62,13 @@ export default function Navbar() {
           </button>
           
           <div className="flex items-center gap-3">
-            <Link href="/login">
+            <Link href="/auth/login">
               <button className="inline-flex items-center justify-center font-semibold text-xs text-slate-300 hover:text-white h-9 px-4 rounded-xl hover:bg-white/5 transition">
                 Login
               </button>
             </Link>
             <Link
-              href="/register"
+              href="/auth/signup"
               className="inline-flex items-center justify-center font-semibold text-xs bg-gradient-to-r from-pink-500 to-indigo-600 text-white shadow-lg shadow-pink-500/10 hover:shadow-pink-500/20 transition h-9 px-4 rounded-xl"
             >
               Register
