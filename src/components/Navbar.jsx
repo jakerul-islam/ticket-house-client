@@ -123,12 +123,12 @@ export default function Navbar() {
           <div className="border-t border-white/5 my-1" />
           
           <div className="flex flex-col gap-2">
-            <Link href="/login" onClick={() => setMobileMenuOpen(false)}>
+            <Link href="/auth/login" onClick={() => setMobileMenuOpen(false)}>
               <button className="w-full text-center font-semibold text-xs text-slate-300 py-2.5 rounded-xl bg-white/5">
                 Login
               </button>
             </Link>
-            <Link href="/register" onClick={() => setMobileMenuOpen(false)}>
+            <Link href="/auth/register" onClick={() => setMobileMenuOpen(false)}>
               <button className="w-full text-center font-semibold text-xs bg-gradient-to-r from-pink-500 to-indigo-600 text-white py-2.5 rounded-xl">
                 Register
               </button>
