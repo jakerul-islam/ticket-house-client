@@ -1,11 +1,16 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { FaBus, FaEnvelope, FaPhoneAlt, FaFacebookF, FaCcStripe, FaCcVisa, FaCcMastercard } from "react-icons/fa";
 // fa6 মডিউল থেকে FaXTwitter ইমপোর্ট করা হলো
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
+  const pathname = usePathname()
+  if (pathname.includes("dashboard")) {
+    return null;
+  }
   return (
     <footer className="w-full bg-slate-950 text-slate-400 border-t border-white/5 pt-16 pb-8 px-6 md:px-16 mt-8">
       <div className="max-w-7xl mx-auto">
